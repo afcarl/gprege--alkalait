@@ -1,0 +1,15 @@
+Package: gprege
+==============
+
+Version: 0.99.0 [2011-07-11]
+* Initial version in Bioconductor.
+
+Version: 0.99.1 [2011-07-26]
+* Fixed error that exhaustivePlot gave on profiles with zero data variance. Now it simply ignores such profiles.
+
+Version: 1.14.1 [2013-10-02]
+* Fixed error during server connection that tried to download DellaGattaData.RData while building the vignette.
+
+Version: 1.16.1 [2016-10-06]
+* Replaced download urls for downloading DellaGattaData.RData while building the vignette.
+
